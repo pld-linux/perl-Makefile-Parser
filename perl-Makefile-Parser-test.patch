@@ -1,0 +1,13 @@
+--- Makefile-Parser-0.215/t/makesimple.t.orig	2011-08-17 19:08:21.000000000 +0200
++++ Makefile-Parser-0.215/t/makesimple.t	2012-10-29 18:17:35.313599094 +0100
+@@ -555,8 +555,8 @@
+ 
+ all:
+ 	@echo $(foo) \
+-  $(bar) \
+-      $(baz)
++	$(bar) \
++	$(baz)
+ 
+ --- out
+ all:
