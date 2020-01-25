@@ -4,7 +4,6 @@
 #
 %define		pdir	Makefile
 %define		pnam	Parser
-%include	/usr/lib/rpm/macros.perl
 Summary:	Makefile::Parser - A simple parser for Makefiles
 Summary(pl.UTF-8):	Makefile::Parser - prosty analizator plików Makefile
 Name:		perl-Makefile-Parser
