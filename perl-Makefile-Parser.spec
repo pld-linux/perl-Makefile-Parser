@@ -53,7 +53,7 @@ opisanego plikiem Makefile przy użyciu biblioteki GraphViz.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %{__sed} -i -e '1s,/usr/bin/env perl,/usr/bin/perl,' script/*
 
